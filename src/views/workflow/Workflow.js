@@ -33,45 +33,6 @@ class Workflow extends React.Component {
         this.setState({computedData: projects});
     };
 
-    // shouldReceiveNewData  = (props) => {
-    //     this.setState(prevState => ({ totalPrice: prevState.counter }))
-    // };
-
-        // if (company === 'Microsoft') {
-        //     let copy = {...projects};
-        //     copy.lanes.forEach((item )=>{
-        //         item.cards = item.cards.filter((card) => {
-        //             return card.site === 'Microsoft'
-        //         })
-        //     });
-        //     this.setState({projects: [...this.state.projects, copy]});
-        // }
-        // if (company === 'Google') {
-        //     let copy = {...projects};
-        //     copy.lanes.forEach((item )=>{
-        //         item.cards = item.cards.filter((card) => {
-        //             return card.site === 'Google'
-        //         })
-        //     });
-        //     this.setState({projects: [...this.state.projects, copy]});
-        // }
-        // if (company === 'Facebook') {
-        //     let copy = {...projects};
-        //     copy.lanes.forEach((item )=>{
-        //         item.cards = item.cards.filter((card) => {
-        //             return card.site === 'Facebook'
-        //         })
-        //     });
-        //     this.setState({projects: [...this.state.projects, copy]});
-        //     console.log(this.state.projects)
-        // }
-        //
-        // if (company === 'All') {
-        //     this.setState({
-        //         projects: projects,
-        //     });
-        // }
-
     render() {
         let dataSelect = [ 'All', 'Symo.com', 'Microsoft', 'Google', 'Facebook' ],
             label = ['Show projects'],

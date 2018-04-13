@@ -29,7 +29,6 @@ class Statistics extends React.Component {
             })
                 .then(res => res.json())
                 .then(res => {
-                    console.log(res);
                     this.setState({
                         PeriodData: res
                     });
@@ -45,7 +44,6 @@ class Statistics extends React.Component {
             })
                 .then(res => res.json())
                 .then(res => {
-                    console.log(res);
                     this.setState({
                         PeriodData: res
                     });
@@ -61,7 +59,6 @@ class Statistics extends React.Component {
             })
                 .then(res => res.json())
                 .then(res => {
-                    console.log(res);
                     this.setState({
                         PeriodData: res
                     });

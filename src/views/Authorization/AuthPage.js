@@ -35,7 +35,6 @@ class AuthPage extends React.Component {
                 if (res.check === "exist" ) {
                     localStorage.setItem('check', true);
                     localStorage.setItem("user", JSON.stringify(this.state.username));
-
                     console.log(res);
                 }
                 this.setState({

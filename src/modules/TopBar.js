@@ -1,7 +1,6 @@
 import React from 'react';
 import BadgeRing from '../atoms/Badge'
 import AccountDropdown from '../atoms/AdminMenu';
-// import AvatarForAdmin from "../atoms/adminAvatar";
 
 import SearchBox from '../atoms/searchField/SearchBox';
 
@@ -16,7 +15,6 @@ class TopBar extends React.Component {
                 </div>
                 <div className='adminInfo'>
                     <a className='addFile' href="/">Add <span className='addFileBtn'>+</span></a>
-                    {/*<AvatarForAdmin/>*/}
                     <SearchBox />
                     <BadgeRing/>
                     <div className='Avatar d-flex align-items-center'>
