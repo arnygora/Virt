@@ -1,0 +1,40 @@
+.StatisticUsersBox {
+    background: var(--main-bg-color);
+}
+
+.RingsStatistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    box-shadow: 0 3px 80px rgba(158, 163, 180, 0.3);
+}
+
+.StatisticUsersBox .LabelSelect {
+    color: var(--secondary);
+}
+
+.StatusTable {
+    display: inline-block;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.StatusTableActive {
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,128,0,1)), color-stop(100%, rgba(0,0,0,1)));
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(0,128,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,128,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,128,0,1) 0%, rgba(0,0,0,1) 100%);
+    background:radial-gradient(ellipse at center, rgba(0,128,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.StatusTableDisabled {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+    background:-webkit-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    background:radial-gradient(ellipse at center, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}

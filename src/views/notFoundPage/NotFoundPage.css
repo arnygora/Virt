@@ -1,0 +1,46 @@
+.FlexContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.Home {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Home p {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.Home p.LightText {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.Home a {
+    padding: 1rem;
+    border: 3px solid #fff;
+    color: var(--white);
+}
+
+#motion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -1;
+}
+
+#motion video {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}

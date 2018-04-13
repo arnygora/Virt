@@ -1,0 +1,7 @@
+.calendar {
+    background: var(--secondary);
+}
+
+.react-calendar__navigation button {
+    color: var(--white);
+}

@@ -1,0 +1,26 @@
+div.CardItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: var(--itemsColor);
+    white-space: nowrap;
+}
+
+h6.CardTask {
+    color: var(--white);
+    font-size: 0.7rem;
+}
+
+section.dJewwL, article.JJakk {
+    background: transparent !important;
+    border: none !important;
+    transition: 0.2s ease-in;
+}
+
+article.JJakk:hover {
+    transform: scale(1.02);
+}

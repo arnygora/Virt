@@ -1,0 +1,9 @@
+.SettingsContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.SettingsContainer p {
+    margin: auto;
+    color: var(--white);
+}

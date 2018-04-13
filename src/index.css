@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+:root {
+    --main-bg-color: #2f3242;
+    --bodyColor: #2b2d3c;
+    --cyan: #2196f3;
+    --navItemColor: #757da4;
+    --secondary: #666;
+    --itemsColor: #3a3e52;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bodyColor);
+}
+
+.uno, .dos, .tres, .quatro {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.uno {
+    background: url("./img/uno.png") 0 0 no-repeat;
+}
+
+.dos {
+    background: url("./img/dos.png") 0 0 no-repeat;
+}
+
+.tres {
+    background: url("./img/tres.png") 0 0 no-repeat;
+}
+
+.quatro {
+    background: url("./img/quatro.png") 0 0 no-repeat;
+}
+
+.wrapper {
+    padding: 2rem 1rem 1rem 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.react-bs-table-bordered,
+.table-bordered th, .table-bordered td{
+    border: 0;
+    color: #fff;
+}
+
+.react-bs-container-header {
+    background: var(--itemsColor);
+}

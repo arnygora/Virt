@@ -1,0 +1,88 @@
+.registerWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("../../img/Slow_Typer.jpg") 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+@media screen and (max-width: 415px) {
+    .registerWrapper {
+        display: block;
+        margin-bottom: 4rem;
+    }
+}
+
+.wrapForm {
+    max-width: 600px;
+    /*margin: auto;*/
+    background: #2354dc94;
+    -webkit-box-shadow: 1px 1px 15px 6px #1000ff7a;
+    box-shadow: 1px 1px 15px 6px #1000ff7a;
+}
+
+.wrapForm form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.wrapForm form span {
+    margin-bottom: 1rem;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.wrapForm form span::before {
+    padding-right: .8rem;
+}
+
+.wrapForm form input {
+    border: none;
+    border-bottom: 1px solid #fbfbfb;
+    color: #fff;
+    background: #32d2e238;
+}
+
+.wrapForm form input::placeholder {
+    color: #fff;
+}
+
+.wrapForm form button {
+    margin: 0 auto;
+    background: #2d609452;
+    padding: 7px 20px;
+    text-shadow: 1px 1px 6px #00e8ff;
+    font-weight: bold;
+    border: 3px solid #007eff;
+    border-radius: 25px;
+    color: #02fdf3;
+    transition: all 0.2s ease;
+}
+
+.wrapForm form button:hover {
+    letter-spacing: 0.1rem;
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.InputData {
+    font-size: 2rem;
+    color: var(--itemsColor);
+}

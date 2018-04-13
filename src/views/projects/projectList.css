@@ -1,0 +1,73 @@
+ul.TableHeaders{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+ul.TableHeaders li {
+    margin-right: 7rem;
+    white-space: nowrap;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 640px) {
+    ul.TableHeaders li {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    ul.TableHeaders li {
+        margin-right: 3rem;
+    }
+}
+
+ul.ProjectsList {
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 15px;
+}
+
+li.ProjectItem {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    background: var(--itemsColor);
+    color: var(--white);
+    transition: all .2s ease;
+}
+
+@media only screen and (max-width: 590px) {
+    li.ProjectItem {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
+
+li.ProjectItem:hover {
+    box-shadow: 2px 3px 15px 5px #9fcdff;
+}
+
+.ProgressLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.UserCard {
+    max-width: 220px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .SpentTime, .Deadline {
+        display: none;
+    }
+}

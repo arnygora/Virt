@@ -1,0 +1,24 @@
+.Open {
+    width: 200px
+}
+.Closed {
+    width: 0;
+}
+.SmallIcon {
+    width: 3px;
+    height: 30px;
+}
+.Icon {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    top: 10px;
+}
+frame {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type='text'], button[type='button'], svg {
+    color: white !important;
+}

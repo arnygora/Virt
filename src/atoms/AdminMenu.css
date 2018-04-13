@@ -1,0 +1,35 @@
+.AccountAction {
+    display: flex;
+    flex-direction: column;
+}
+.dropdown {
+    z-index: 500;
+}
+
+.DropdownList {
+    padding: 0;
+    background: #3858ff6e;
+}
+.DropdownList li a {
+    margin: 1rem;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.dropdown--active .dropdown__content {
+    display: block;
+}
+
+.dropdown__trigger {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown__content {
+    position: absolute;
+    display: none;
+    right: 20px;
+    width: 120px;
+}
+
+

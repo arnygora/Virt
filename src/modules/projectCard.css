@@ -1,0 +1,24 @@
+ul.container {
+    margin: 0;
+    padding: 0;
+}
+
+li.cardHeader{
+    box-shadow: 0 3px 80px rgba(23, 24, 32, 0.2);
+    background: #3a3e52;
+}
+li.projectCard, li.inboxCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: var(--main-bg-color);
+    border-bottom: 1px solid #9ca1b26b;
+}
+p.projectItem, span.projectSite {
+    font: 0.8rem 'Roboto', sans-serif;
+    color: var(--white);
+}
+span.projectSite {
+    font-size: 0.6rem;
+}

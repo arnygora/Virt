@@ -1,0 +1,36 @@
+ul.InboxList {
+    padding: 0 20px;
+}
+
+div.textContainer {
+    max-width: 240px;
+    overflow: hidden;
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+p.inboxItem {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.2;
+    color: var(--white);
+}
+.inboxCard + div {
+    width: 52px;
+}
+
+span.date {
+    color: var(--cyan);
+}
+
+/*styles for Badge (NotificationsIcon) dropdown menu*/
+.DropdownMsg {
+    position: absolute;
+    right: 0;
+    background: #2196f361;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+
+
